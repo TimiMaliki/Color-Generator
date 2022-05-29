@@ -12,4 +12,6 @@ const bgEl =  document.querySelector('section');
 
  const lifeShape = document.querySelector('.yin-yang');
 
- 
+ const bodyBcg = document.querySelector('body');
+
+ const imgs = ['img1','img2', 'img3','img4','img5','img6',]

@@ -76,4 +76,7 @@ h2{
       left: 37%;
       bottom: 5rem;
   }
+  .img-slide{
+      visibility: hidden;
+  }
  
