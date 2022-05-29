@@ -9,3 +9,7 @@ const bgEl =  document.querySelector('section');
        h2El.innerText =  color;
 
  })
+
+ const lifeShape = document.querySelector('.yin-yang');
+
+ 
