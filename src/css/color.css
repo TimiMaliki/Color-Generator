@@ -76,6 +76,10 @@ h2{
       left: 37%;
       bottom: 5rem;
   }
+  .yin-yang:hover{
+      box-shadow: 3px 4px 2px rgb(201, 28, 28);
+      cursor: pointer;
+  }
   .img-slide{
       visibility: hidden;
   }

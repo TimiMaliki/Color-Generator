@@ -19,5 +19,5 @@ const bgEl =  document.querySelector('section');
  lifeShape.addEventListener('click',);
 
  function changeImage(){
-       bodyBcg.style.backgroundColor = 'img1'
+       bodyBcg.style.backgroundImage = 'img1'
  }
