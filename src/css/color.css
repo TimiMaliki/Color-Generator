@@ -46,7 +46,6 @@ h2{
     border-width: 2px 2px 50px 2px;
     border-radius: 100%;
     position: relative;
-   
   }
   #yin-yang:before {
     content: "";
@@ -73,5 +72,8 @@ h2{
     box-sizing: content-box;
   }
   .yin-yang{
-      margin:20px -10px;
+      margin:-20px 70px;
+      left: 37%;
+      bottom: 5rem;
   }
+ 
