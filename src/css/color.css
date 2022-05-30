@@ -32,14 +32,8 @@ button:hover{
 h2{
     margin-top: 10px;
 }
-.grid{
-    display: grid;
-    grid-template-columns: repeat(2 ,2fr);
-}
 img{
-   /* visibility: hidden;
-*/
-
+ visibility: hidden;
 }
 #yin-yang {
     width: 96px;
@@ -90,7 +84,7 @@ img{
       background: #f1f1f3;
       display: grid;
       justify-content: center;
-      grid-template-columns: repeat(2,3fr);
+      grid-template-columns: repeat(3,3fr);
   }
 
   
