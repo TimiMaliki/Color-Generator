@@ -10,14 +10,5 @@ const bgEl =  document.querySelector('section');
 
  })
 
- const lifeShape = document.querySelector('#yin-yang');
+ // Image using javascript
 
- const bodyBcg = document.querySelector('body');
-
- const imgs = ['img1','img2', 'img3','img4','img5','img6',];
-
- lifeShape.addEventListener('click',);
-
- function changeImage(){
-       bodyBcg.style.backgroundImage = 'img1'
- }

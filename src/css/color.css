@@ -2,14 +2,21 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    height: 30vh;
+}
+body{
+    height: 60vh;
 }
 section{
-    height: 100vh;
+    height: 60vh;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+.frame{
+    border: 2px solid red;
 }
 button{
     border: none;
@@ -31,10 +38,8 @@ h2{
     display: grid;
     grid-template-columns: repeat(2 ,2fr);
 }
-.img-slide{
-    display: grid;
-    grid-template-columns: repeat(2,2fr);
-    margin: 0px 150px;
+img{
+    visibility: hidden;
 }
 #yin-yang {
     width: 96px;
@@ -72,15 +77,13 @@ h2{
     box-sizing: content-box;
   }
   .yin-yang{
-      margin:-20px 70px;
-      left: 37%;
-      bottom: 5rem;
+    top: 50%;
+    left: 45%;
   }
   .yin-yang:hover{
       box-shadow: 3px 4px 2px rgb(201, 28, 28);
       cursor: pointer;
   }
-  .img-slide{
-      visibility: hidden;
-  }
+
+  
  
