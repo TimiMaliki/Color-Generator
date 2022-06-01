@@ -1,6 +1,6 @@
 const button = document.querySelector('button');
 const h2El = document.querySelector('h2');
-const bgEl =  document.querySelector('section');
+const bgEl =  document.querySelector('body');
 
  button.addEventListener('click',() =>{
       let color = '#';
@@ -11,4 +11,12 @@ const bgEl =  document.querySelector('section');
  })
 
  // Image using javascript
+  function btn(){
+       
 
+        let image = document.getElementById('image');
+        let images = ['pics/img1.jpg','pics/img2.jpg','pics/img3.jpg','pics/img4.jpg','pics/img5.jpg',];
+
+        let random = Math.floor(Math.random() * 5);
+        image.src = images[random];
+  }
