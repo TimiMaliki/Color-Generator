@@ -18,9 +18,5 @@ const bgEl =  document.querySelector('body');
         let images = ['pics/img1.jpg','pics/img2.jpg','pics/img3.jpg','pics/img4.jpg','pics/img5.jpg',];
 
         let random = Math.floor(Math.random() * 5);
-        let image = document.getElementById('image');
-        let images = ['pics/img1.jpg','pics/img2.jpg','pics/img3.jpg','pics/img4.jpg','pics/img5.jpg',];
-
-        let random = Math.floor(Math.random() * 5);
         image.src = images[random];
   }
