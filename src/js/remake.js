@@ -4,7 +4,7 @@ const pTag = document.querySelector('p');
 
 
 button.addEventListener('click',() =>{
- let theColor = '#';
+ let theColor = '';
   theColor+= Math.random().toString(16).slice(2,8);
  bgC.style.backgroundColor = theColor;
  pTag.innerText = theColor;
